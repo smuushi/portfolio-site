@@ -45,7 +45,7 @@ const Portfolio = () => {
                 <TabList>
                   <Tab>All</Tab>
                   <Tab>Full Stack</Tab>
-                  <Tab>Ravine-JS</Tab>
+                  <Tab>Pure JavaScript</Tab>
                   <Tab>What-Ai-Want</Tab>
                   <Tab>Details</Tab>
                 </TabList>
@@ -91,7 +91,7 @@ const Portfolio = () => {
                               alt="Youtube"
                               data-tip
                               data-for="youtube"
-                              onClick={() => setOpen(true)}
+                              onClick={toggleModalFour}
                             />
                             <ReactTooltip
                               id="youtube"
@@ -101,8 +101,8 @@ const Portfolio = () => {
                               className="tooltip-wrapper"
                             >
                               <div>
-                                <h5>Ashely Flores</h5>
-                                <span>Youtube</span>
+                                <h5>Ravine-JS</h5>
+                                <span>Pure JavaScript</span>
                               </div>
                             </ReactTooltip>
                           </div>
@@ -463,7 +463,7 @@ const Portfolio = () => {
                               className="tooltip-wrapper"
                             >
                               <div>
-                                <h5>Ave Simone</h5>
+                                <h5>Ravine-JS</h5>
                                 <span>Details</span>
                               </div>
                             </ReactTooltip>
@@ -521,7 +521,7 @@ const Portfolio = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                    backgroundImage: "url(assets/img/portfolio/D15_overview.png)",
                   }}
                 ></div>
               </div>
@@ -565,19 +565,21 @@ const Portfolio = () => {
                   <ul>
                     <li>
                       <span className="first">Live Link</span>
-                      <span><a href="d15c0rd.onrender.com">d150rd</a></span>
+                      <span><a href="https://d15c0rd.onrender.com" target="_blank" rel="noopener noreferrer">D15C0RD</a></span>
                     </li>
                     <li>
                       <span className="first">Category</span>
                       <span>Full Stack</span>
                     </li>
                     <li>
-                      <span className="first">Time Span</span>
-                      <span>April , 2023</span>
+                      <span className="first">Development Time Span</span>
+                      <span>2 weeks | 4/3 - 4/14, 2023</span>
                     </li>
                     <li>
-                      <span className="first">Share</span>
-                      <Social />
+                      <span className="first">GitHub</span>
+                      <span><a href="https://github.com/smuushi/D15C0RD" target="_blank" rel="noopener noreferrer">See the code!</a></span>
+
+                      {/* <Social /> */}
                       {/* END SOCIAL SHARE */}
                     </li>
                   </ul>
@@ -594,7 +596,7 @@ const Portfolio = () => {
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                            backgroundImage: "url(assets/img/portfolio/livechat.gif)",
                           }}
                         ></div>
                       </div>
@@ -608,7 +610,7 @@ const Portfolio = () => {
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/2.jpg)",
+                            backgroundImage: "url(assets/img/portfolio/serverinvites.gif)",
                           }}
                         ></div>
                       </div>
@@ -622,7 +624,7 @@ const Portfolio = () => {
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/3.jpg)",
+                            backgroundImage: "url(assets/img/portfolio/userauth.gif)",
                           }}
                         ></div>
                       </div>
@@ -666,44 +668,46 @@ const Portfolio = () => {
               </div>
               {/* END IMAGE */}
               <div className="portfolio_main_title">
-                <h3>Ave Simone</h3>
-                <span>Details</span>
+                <h3>Ravine-JS</h3>
+                <span>A pixel art survival game about staying alive while collecting food!</span>
               </div>
               {/* END portfolio_main_title */}
               <div className="main_details">
                 <div className="textbox">
                   <p>
-                    We live in a world where we need to move quickly and iterate
-                    on our ideas as flexibly as possible. Building mockups
-                    strikes the ideal balance between true-life representation
-                    of the end product and ease of modification.
+                    The goal of this project was to develop a javascript application with minimal dependencies.
+                    I chose to make a game that reminded me of those old flash games I played growing up.
+                     
                   </p>
                   <p>
-                    Mockups are useful both for the creative phase of the
-                    project - for instance when you're trying to figure out your
-                    user flows or the proper visual hierarchy - and the
-                    production phase when they will represent the target
-                    product. Making mockups a part of your creative and
-                    development process allows you to quickly and easily ideate.
+                    The features include: 
+                    <ul style={{marginLeft: "30px"}}>
+                      <li>Pure JS Canvas manipulation</li>
+                      <li>A custom engine using setInterval() to update game entities and facilitate interactions</li>
+                      <li>A score and progress tracker using the browser's local storage</li>
+                      <li>Cute pixel art animated using a custom-built frame counter</li>
+                      <li>Debugging visuals to tune entities and interactions</li>
+                    </ul>
                   </p>
                 </div>
                 <div className="detailbox">
                   <ul>
                     <li>
-                      <span className="first">Client</span>
-                      <span>Alvaro Morata</span>
+                      <span className="first">Live Link</span>
+                      <span><a href="https://smuushi.github.io/ravine_js/" target="_blank" rel="noopener noreferrer">Ravine-JS</a></span>                      
                     </li>
                     <li>
                       <span className="first">Category</span>
-                      <span>Details</span>
+                      <span>Pure JavaScript</span>
                     </li>
                     <li>
-                      <span className="first">Date</span>
-                      <span>March 07, 2021</span>
+                      <span className="first">Development Time Span</span>
+                      <span>1 week | 3/8 - 3/16, 2023</span>
                     </li>
                     <li>
-                      <span className="first">Share</span>
-                      <Social />
+                      <span className="first">GitHub</span>
+                      <span><a href="https://github.com/smuushi/ravine_js" target="_blank" rel="noopener noreferrer">See the code!</a></span>
+
                       {/* END SOCIAL SHARE */}
                     </li>
                   </ul>
