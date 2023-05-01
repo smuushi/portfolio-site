@@ -16,6 +16,8 @@ const Portfolio = () => {
   // for modal details
   const [isOpen3, setIsOpen3] = useState(false);
   const [isOpen4, setIsOpen4] = useState(false);
+  const [isOpen5, setIsOpen5] = useState(false);
+
 
   // for modal details method
   function toggleModalThree() {
@@ -23,6 +25,10 @@ const Portfolio = () => {
   }
   function toggleModalFour() {
     setIsOpen4(!isOpen4);
+  }
+
+  function toggleModalFive() {
+    setIsOpen5(!isOpen5);
   }
 
   return (
@@ -46,8 +52,8 @@ const Portfolio = () => {
                   <Tab>All</Tab>
                   <Tab>Full Stack</Tab>
                   <Tab>Pure JavaScript</Tab>
-                  <Tab>What-Ai-Want</Tab>
-                  <Tab>Details</Tab>
+                  <Tab>Collaborative</Tab>
+                  <Tab>Open Source</Tab>
                 </TabList>
                 {/* END TABLIST */}
                 <div className="list_wrapper">
@@ -87,7 +93,7 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/2.jpg"
+                              src="assets/img/portfolio/overview.png"
                               alt="Youtube"
                               data-tip
                               data-for="youtube"
@@ -118,20 +124,20 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
                             <Item
-                              original="assets/img/portfolio/4.jpg"
-                              thumbnail="assets/img/portfolio/4.jpg"
+                              original="assets/img/portfolio/overview.png"
+                              thumbnail="assets/img/portfolio/overview.png"
                               width={500}
                               height={550}
                             >
                               {({ ref, open }) => (
                                 <img
-                                  src="assets/img/portfolio/4.jpg"
+                                  src="assets/img/portfolio/splashpage.png"
                                   alt="Childhood"
                                   data-tip
                                   data-for="shot"
                                   role="button"
                                   ref={ref}
-                                  onClick={open}
+                                  onClick={toggleModalFive}
                                 />
                               )}
                             </Item>
@@ -143,117 +149,26 @@ const Portfolio = () => {
                               className="tooltip-wrapper"
                             >
                               <div>
-                                <h5>Derek Smith</h5>
-                                <span>Shot</span>
+                                <h5>What-Ai-Want</h5>
+                                <span>MERN-Stack</span>
                               </div>
                             </ReactTooltip>
                           </div>
                         </div>
                       </li>
                       {/* END SHOT */}
-                      <li
-                        data-aos="fade-right"
-                        data-aos-duration="1200"
-                        data-aos-delay="300"
-                      >
-                        <div className="inner">
-                          <div className="entry tokyo_tm_portfolio_animation_wrap">
-                            <Item
-                              original="assets/img/portfolio/3.jpg"
-                              thumbnail="assets/img/portfolio/3.jpg"
-                              width={500}
-                              height={550}
-                            >
-                              {({ ref, open }) => (
-                                <img
-                                  src="assets/img/portfolio/3.jpg"
-                                  alt="Childhood"
-                                  data-tip
-                                  data-for="shot"
-                                  role="button"
-                                  ref={ref}
-                                  onClick={open}
-                                />
-                              )}
-                            </Item>
-                            <ReactTooltip
-                              id="shot2"
-                              place="bottom"
-                              type="light"
-                              effect="float"
-                              className="tooltip-wrapper"
-                            >
-                              <div>
-                                <h5>Gloria jenkins</h5>
-                                <span>Shot</span>
-                              </div>
-                            </ReactTooltip>
-                          </div>
-                        </div>
-                      </li>
+                      
                       {/* END SHOT */}
 
-                      <li
-                        data-aos="fade-right"
-                        data-aos-duration="1200"
-                        data-aos-delay="100"
-                      >
-                        <div className="inner">
-                          <div className="entry tokyo_tm_portfolio_animation_wrap">
-                            <img
-                              src="assets/img/portfolio/6.jpg"
-                              alt="Details"
-                              data-tip
-                              data-for="detail"
-                              onClick={toggleModalThree}
-                            />
-
-                            <ReactTooltip
-                              id="detail"
-                              place="bottom"
-                              type="light"
-                              effect="float"
-                              className="tooltip-wrapper"
-                            >
-                              <div>
-                                <h5>Selena Gomez</h5>
-                                <span>Details</span>
-                              </div>
-                            </ReactTooltip>
-                          </div>
-                        </div>
-                      </li>
+                      
                       {/* END DETAILS */}
-                      <li
+                      {/* <li
                         data-aos="fade-right"
                         data-aos-duration="1200"
                         data-aos-delay="200"
                       >
-                        <div className="inner">
-                          <div className="entry tokyo_tm_portfolio_animation_wrap">
-                            <img
-                              src="assets/img/portfolio/7.jpg"
-                              alt="Details"
-                              data-tip
-                              data-for="detail2"
-                              onClick={toggleModalFour}
-                            />
-
-                            <ReactTooltip
-                              id="detail2"
-                              place="bottom"
-                              type="light"
-                              effect="float"
-                              className="tooltip-wrapper"
-                            >
-                              <div>
-                                <h5>Ave Simone</h5>
-                                <span>Details</span>
-                              </div>
-                            </ReactTooltip>
-                          </div>
-                        </div>
-                      </li>
+                      
+                      </li> */}
                       {/* END DETAILS */}
                     </ul>
                     {/* END PORTFOLIO LIST */}
@@ -299,11 +214,11 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
                             <img
-                              src="assets/img/portfolio/2.jpg"
+                              src="assets/img/portfolio/overview.png"
                               alt="Youtube"
                               data-tip
                               data-for="youtube"
-                              onClick={() => setOpen(true)}
+                              onClick={toggleModalFour}
                             />
                             <ReactTooltip
                               id="youtube"
@@ -313,8 +228,8 @@ const Portfolio = () => {
                               className="tooltip-wrapper"
                             >
                               <div>
-                                <h5>Ashely Flores</h5>
-                                <span>Youtube</span>
+                                <h5>Ravine-JS</h5>
+                                <span>Pure JavaScript</span>
                               </div>
                             </ReactTooltip>
                           </div>
@@ -365,46 +280,7 @@ const Portfolio = () => {
                         </div>
                       </li>
                       {/* END SHOT */}
-                      <li
-                        data-aos="fade-right"
-                        data-aos-duration="1200"
-                        data-aos-delay="100"
-                      >
-                        <div className="inner">
-                          <div className="entry tokyo_tm_portfolio_animation_wrap">
-                            <Item
-                              original="assets/img/portfolio/3.jpg"
-                              thumbnail="assets/img/portfolio/3.jpg"
-                              width={500}
-                              height={550}
-                            >
-                              {({ ref, open }) => (
-                                <img
-                                  src="assets/img/portfolio/3.jpg"
-                                  alt="Childhood"
-                                  data-tip
-                                  data-for="shot"
-                                  role="button"
-                                  ref={ref}
-                                  onClick={open}
-                                />
-                              )}
-                            </Item>
-                            <ReactTooltip
-                              id="shot2"
-                              place="bottom"
-                              type="light"
-                              effect="float"
-                              className="tooltip-wrapper"
-                            >
-                              <div>
-                                <h5>Gloria jenkins</h5>
-                                <span>Shot</span>
-                              </div>
-                            </ReactTooltip>
-                          </div>
-                        </div>
-                      </li>
+                      
                       {/* END SHOT */}
                     </ul>
                     {/* END PORTFOLIO LIST */}
@@ -662,7 +538,7 @@ const Portfolio = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/portfolio/7.jpg)",
+                    backgroundImage: "url(assets/img/portfolio/overview.png)",
                   }}
                 ></div>
               </div>
@@ -724,7 +600,7 @@ const Portfolio = () => {
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/6.jpg)",
+                            backgroundImage: "url(assets/img/portfolio/menus.gif)",
                           }}
                         ></div>
                       </div>
@@ -738,7 +614,7 @@ const Portfolio = () => {
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/5.jpg)",
+                            backgroundImage: "url(assets/img/portfolio/aliveoptions.png)",
                           }}
                         ></div>
                       </div>
@@ -752,7 +628,128 @@ const Portfolio = () => {
                         <div
                           className="main"
                           style={{
-                            backgroundImage: "url(assets/img/portfolio/4.jpg)",
+                            backgroundImage: "url(assets/img/portfolio/hitbox.gif)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                </ul>
+              </div>
+            </div>
+          </div>
+          {/* END BOX INNER */}
+        </div>
+        {/* END MODALBOX NEWS */}
+      </Modal>
+
+      <Modal
+        isOpen={isOpen5}
+        onRequestClose={toggleModalFive}
+        contentLabel="My dialog"
+        className="mymodal"
+        overlayClassName="myoverlay"
+        closeTimeoutMS={500}
+      >
+        <div className="tokyo_tm_modalbox_news portfolio_tm_modalbox">
+          <button className="close-modal" onClick={toggleModalFive}>
+            <img src="assets/img/svg/cancel.svg" alt="close icon" />
+          </button>
+          {/* END CLOSE ICON */}
+          <div className="box_inner">
+            <div className="description_wrap scrollable">
+              <div className="image">
+                <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
+                <div
+                  className="main"
+                  style={{
+                    backgroundImage: "url(assets/img/portfolio/splashpage.png)",
+                  }}
+                ></div>
+              </div>
+              {/* END IMAGE */}
+              <div className="portfolio_main_title">
+                <h3>What-Ai-Want</h3>
+                <span>A website for users to generate images through OpenAi's image generation</span>
+              </div>
+              {/* END portfolio_main_title */}
+              <div className="main_details">
+                <div className="textbox">
+                  <p>
+                    Utilizing the MERN stack workflow (MongoDB, Express, React, Node.js), I led a team of 4 developers to create a web platform for users to easily interact with OpenAi's image generation API. 
+                  </p>
+                  <p>
+                    The features include: 
+                    <ul style={{marginLeft: "30px"}}>
+                      <li>CRUD functionality for images</li>
+                      <li>Account management</li>
+                      <li>Build in API calls to OpenAi's beta API</li>
+                      <li>Image hosting and saving through AWS S3</li>
+                    </ul>
+                  </p>
+                </div>
+                <div className="detailbox">
+                  <ul>
+                    <li>
+                      <span className="first">Live Link</span>
+                      <span><a href="https://what-ai-want.onrender.com" target="_blank" rel="noopener noreferrer">What-Ai-Want</a></span>                      
+                    </li>
+                    <li>
+                      <span className="first">Category</span>
+                      <span>Group Project</span>
+                    </li>
+                    <li>
+                      <span className="first">Development Time Span</span>
+                      <span>4 days | 4/10 - 4/14, 2023</span>
+                    </li>
+                    <li>
+                      <span className="first">GitHub</span>
+                      <span><a href="https://github.com/smuushi/what-ai-want" target="_blank" rel="noopener noreferrer">See the code!</a></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              {/* main_details */}
+
+              <div className="additional_images">
+                <ul className="gallery_zoom">
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/SplashDemo.gif)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/MaikeDemo.gif)",
+                          }}
+                        ></div>
+                      </div>
+                    </div>
+                  </li>
+                  {/* END SHOT */}
+                  <li>
+                    <div className="list_inner">
+                      <div className="my_image">
+                        <img src="img/thumbs/4-2.jpg" alt="thumb" />
+                        <div
+                          className="main"
+                          style={{
+                            backgroundImage: "url(assets/img/portfolio/ProfileUpload.gif)",
                           }}
                         ></div>
                       </div>

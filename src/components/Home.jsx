@@ -17,10 +17,9 @@ const Home = () => {
           </div>
           {/* END AVATAR */}
           <div className="details">
-            <h3 className="name">Adriano Smith</h3>
+            <h3 className="name">Michael Shih</h3>
             <p className="job">
-              Creative Photographer based in New York and happy to travel all
-              over Europe to capture photos.
+              Software Developer in New York uwu
             </p>
             {/* END JOB */}
             <Social />
