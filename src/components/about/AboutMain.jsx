@@ -68,7 +68,7 @@ const AboutMain = () => {
       </div>
       {/* End tokyo_tm_resumebox */}
 
-      <div className="tokyo_tm_testimonials">
+      {/* <div className="tokyo_tm_testimonials">
         <div className="container">
           <div className="tokyo_section_title">
             <h3>Testimonials</h3>
@@ -77,7 +77,7 @@ const AboutMain = () => {
             <Testimonial />
           </div>
         </div>
-      </div>
+      </div> */}
       {/* End tokyo_tm_testimonials */}
 
       {/* /ABOUT */}

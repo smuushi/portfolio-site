@@ -254,13 +254,13 @@ const Portfolio = () => {
                             >
                               {({ ref, open }) => (
                                 <img
-                                  src="assets/img/portfolio/4.jpg"
+                                  src="assets/img/portfolio/splashpage.png"
                                   alt="Childhood"
                                   data-tip
                                   data-for="shot"
                                   role="button"
                                   ref={ref}
-                                  onClick={open}
+                                  onClick={toggleModalFive}
                                 />
                               )}
                             </Item>
@@ -272,8 +272,8 @@ const Portfolio = () => {
                               className="tooltip-wrapper"
                             >
                               <div>
-                                <h5>Derek Smith</h5>
-                                <span>Shot</span>
+                                <h5>What-Ai-Want</h5>
+                                <span>MERN Stack</span>
                               </div>
                             </ReactTooltip>
                           </div>
@@ -288,18 +288,13 @@ const Portfolio = () => {
                   {/* END PHOTOGRAHY */}
 
                   <TabPanel>
+                    <h3>Projects I'm looking at</h3>
                     <ul className="portfolio_list">
                       <li data-aos="fade-right" data-aos-duration="1200">
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
-                            <img
-                              src="assets/img/portfolio/6.jpg"
-                              alt="Details"
-                              data-tip
-                              data-for="detail"
-                              onClick={toggleModalThree}
-                            />
-
+                            <a href="https://github.com/openseadragon/openseadragon">OpenSeaDragon</a>
+                            
                             <ReactTooltip
                               id="detail"
                               place="bottom"
@@ -308,14 +303,15 @@ const Portfolio = () => {
                               className="tooltip-wrapper"
                             >
                               <div>
-                                <h5>Selena Gomez</h5>
-                                <span>Details</span>
+                                <h5>OpenSeaDragon</h5>
+                                <span>Open Source</span>
                               </div>
                             </ReactTooltip>
                           </div>
                         </div>
                       </li>
                       {/* END DETAILS */}
+                  
                       <li
                         data-aos="fade-right"
                         data-aos-duration="1200"
@@ -323,13 +319,7 @@ const Portfolio = () => {
                       >
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
-                            <img
-                              src="assets/img/portfolio/7.jpg"
-                              alt="Details"
-                              data-tip
-                              data-for="detail2"
-                              onClick={toggleModalFour}
-                            />
+                          <a href="https://github.com/bitwarden/mobile">bitwarden mobile</a>
 
                             <ReactTooltip
                               id="detail2"

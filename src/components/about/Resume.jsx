@@ -9,22 +9,15 @@ const Resume = () => {
       resume: [
         {
           id: 1,
-          year: "2014 - 2016",
-          institute: "Oxford University",
-          degree: "Master Degree",
+          year: "Jan 2023 - Apr 2023",
+          institute: "App Academy NYC",
         },
         {
           id: 2,
-          year: "2010 - 2014",
-          institute: "Texas University",
-          degree: "Bachelor Degree",
-        },
-        {
-          id: 3,
-          year: "2008 - 2010",
-          institute: "Simone College",
-          degree: "Associate Degree",
-        },
+          year: "2015 - 2019",
+          institute: "St. John's University",
+          degree: "BA Philosophy, BS Biology",
+        }
       ],
     },
     {
@@ -34,22 +27,17 @@ const Resume = () => {
       resume: [
         {
           id: 1,
-          year: "2018 - Now",
-          institute: "Envato Market",
-          degree: "Exclusive Author",
+          year: "2022 - Present",
+          institute: "Cliffs Climbing and Fitness",
+          degree: "Climbing Associate",
         },
         {
           id: 2,
-          year: "2016 - 2018",
-          institute: "RGB Studio",
-          degree: "UX Designer",
+          year: "2020 - 2023",
+          institute: "CityMD Urgent Care",
+          degree: "Clinical Shift Supervisor",
         },
-        {
-          id: 3,
-          year: "2012 - 2016",
-          institute: "Innovations Park",
-          degree: "Web Designer",
-        },
+        
       ],
     },
   ];

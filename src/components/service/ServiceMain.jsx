@@ -31,7 +31,7 @@ const ServiceMain = () => {
       </div>
       {/* End .container */}
 
-      <div className="tokyo_tm_partners">
+      {/* <div className="tokyo_tm_partners">
         <div className="container">
           <div className="tokyo_section_title">
             <h3>Partners</h3>
@@ -42,7 +42,7 @@ const ServiceMain = () => {
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* End partners */}
 
       <div className="tokyo_tm_facts">
@@ -59,7 +59,7 @@ const ServiceMain = () => {
       </div>
       {/* End funfacts */}
 
-      <div className="tokyo_tm_pricing">
+      {/* <div className="tokyo_tm_pricing">
         <div className="container">
           <div className="tokyo_section_title">
             <h3>Pricing</h3>
@@ -70,7 +70,7 @@ const ServiceMain = () => {
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* End pricing */}
 
       {/* /SERVICE */}

@@ -7,11 +7,12 @@ const KnowledgeInterest = () => {
       colClass: "left",
       title: "Knowledge",
       content: [
-        " Bootstrap, Angular",
-        " React, Vue, Laravel",
-        " Stylus, Sass, Less",
-        " Gulp, Webpack, Grunt",
-        " Tweenmax, GSAP",
+        " Languages: JavaScript, Ruby, SQL, HTML, CSS",
+        " Ruby On Rails",
+        " React",
+        " PostgreSQL, Sqlite3",
+        " MongoDB",
+        " Express"
       ],
     },
     {
@@ -19,11 +20,11 @@ const KnowledgeInterest = () => {
       colClass: "right",
       title: "Interests",
       content: [
-        " Make UI/UX Design",
-        " Create Mobile App",
-        " Site Optimization",
-        " Custom Website",
-        "Learn Ecommerce",
+        " Low Level Computer Systems",
+        " Memory Optimizations",
+        " Benchmarking",
+        " Open Source",
+        " IDE workflow improvements",
       ],
     },
   ];
