@@ -12,14 +12,14 @@ const Home = () => {
               style={{
                 backgroundImage: "url(assets/img/slider/1.jpg)",
               }}
-            ></div>
+            ><img src="assets/img/portfolio/me.jpg" /></div>
             {/* END AVATAR IMAGE */}
           </div>
           {/* END AVATAR */}
           <div className="details">
             <h3 className="name">Michael Shih</h3>
             <p className="job">
-              Software Developer in New York uwu
+              Software Developer in New York 
             </p>
             {/* END JOB */}
             <Social />

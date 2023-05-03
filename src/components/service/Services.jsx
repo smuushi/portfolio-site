@@ -16,44 +16,38 @@ const Services = () => {
     {
       id: 1,
       no: "01",
-      title: "Web Design",
-      text: `Web development is the most famous job in the world and it is very
-      interesting...`,
+      title: "Web Dev",
+      text: `Web developing through ...`,
     },
     {
       id: 2,
       no: "02",
-      title: "Content Writing",
-      text: `Web development is the most famous job in the world and it is very
-      interesting...`,
+      title: "Documentation Research",
+      text: `Understanding just one level deeper ...`,
     },
     {
       id: 3,
       no: "03",
-      title: "Brand Identity",
-      text: `Web development is the most famous job in the world and it is very
-      interesting...`,
+      title: "Time Management",
+      text: `Understanding the programming triangle ...`,
     },
     {
       id: 4,
       no: "04",
-      title: "Live Chat",
-      text: `Web development is the most famous job in the world and it is very
-      interesting...`,
+      title: "Web sockets",
+      text: `Real time updates for users through websockets ...`,
     },
     {
       id: 5,
       no: "05",
-      title: "After Effects",
-      text: `Web development is the most famous job in the world and it is very
-      interesting...`,
+      title: "AWS",
+      text: `Unerstanding the Amazon Web Services ecosystem ...`,
     },
     {
       id: 6,
       no: "06",
-      title: "Mobile App",
-      text: `Web development is the most famous job in the world and it is very
-      interesting...`,
+      title: "CI/CD Services",
+      text: `Deployment using various services and differing ENVs ...`,
     },
   ];
 

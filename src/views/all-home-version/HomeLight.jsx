@@ -94,14 +94,14 @@ const HomeLight = () => {
                     />
                     <span className="menu_content">News</span>
                   </Tab>
-                  <Tab>
-                    <img
+                  {/* <Tab> */}
+                    {/* <img
                       className="svg"
                       src="/assets/img/svg/mail.svg"
                       alt="mail"
-                    />
-                    <span className="menu_content"> Contact</span>
-                  </Tab>
+                    /> */}
+                    {/* <span className="menu_content"> Contact</span> */}
+                  {/* </Tab> */}
                 </ul>
               </div>
               {/* END MENU */}
