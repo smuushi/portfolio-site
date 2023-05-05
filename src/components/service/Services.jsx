@@ -127,7 +127,7 @@ const Services = () => {
                 <div
                   className="main"
                   style={{
-                    backgroundImage: "url(assets/img/news/2.jpg)",
+                    backgroundImage: "url(assets/img/portfolio/React_Banner.png)",
                   }}
                 ></div>
               </div>
@@ -147,15 +147,21 @@ const Services = () => {
               <div className="main_content ">
                 <div className="descriptions">
                   <p className="bigger">
-                    papaya1
+                    Webdev is a constantly evolving discipline. There's new frameworks, framework upgrades, and new libraries every moment. For me, learning
+                    to embrace the constant change helped me learn the underlying programming patterns in webdev. 
+
                   </p>
                   <p>
-                    papaya2
+                    This means, reading documentation, collaborating with others, and poking around new websites for myself. There's multiple
+                    ways of making great webpages for the end-user, and the best implementation will depend on the team and the job. 
+
                   </p>
                   <p>
-                    boop
+                    As a result, while I have the most practice in React and its hooks, it hasn't stopped me from exploring other frameworks, for instance, Angular and their new signals.
+                    I believe that learning to be flexible and adaptable is especially vital in the webdev field. Frameworks often give us a lot of convenience, but 
+                    it's important to not let them become crutches for our programming. 
                   </p>
-                  <div className="quotebox">
+                  {/* <div className="quotebox">
                     <div className="icon">
                       <img
                         className="svg"
@@ -170,29 +176,29 @@ const Services = () => {
                       needed, as shooting away from home consistently inspires
                       us to new artistic heights.
                     </p>
-                  </div>
+                  </div> */}
                   {/* END QUOTEBOX */}
-                  <p>
+                  {/* <p>
                     Pretend everything is new and that you haven’t seen it
                     before, and then you will be free to notice the leading
                     lines, the places where one edge meets another in delightful
                     geometric harmony, and how the ordinary things in the
                     kitchen are transformed when the light is on or off.
-                  </p>
-                  <p>
+                  </p> */}
+                  {/* <p>
                     The trick here is to look slowly, and then look again. Take
                     the time to look in detail and to look at the same thing
                     from different angles, with different light, long lenses and
                     wide lenses. Then move to the left a bit. You may never feel
                     the need to leave the house again.
-                  </p>
+                  </p> */}
                 </div>
                 {/* END DESCRIPTION */}
-                <div className="news_share">
+                {/* <div className="news_share">
                   <span>Share:</span>
                   <Social />
-                  {/* END SOCIAL SHARE */}
-                </div>
+
+                </div> */}
                 {/* END NEWS SHARE */}
               </div>
             </div>
@@ -222,7 +228,7 @@ const Services = () => {
           {/* END CLOSE ICON */}
           <div className="box_inner">
             <div className="description_wrap scrollable">
-              <div className="image">
+              {/* <div className="image">
                 <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
                 <div
                   className="main"
@@ -230,7 +236,7 @@ const Services = () => {
                     backgroundImage: "url(assets/img/news/2.jpg)",
                   }}
                 ></div>
-              </div>
+              </div> */}
               {/* END IMAGE */}
               <div className="details">
                 {/* <div className="extra">
@@ -247,29 +253,18 @@ const Services = () => {
               <div className="main_content ">
                 <div className="descriptions">
                   <p className="bigger">
-                    Just because we can't get out and about like we normally
-                    would, doesn’t mean we have to stop taking pictures. There’s
-                    still plenty you can do, provided you're prepared to use
-                    some imagination. Here are a few ideas to keep you shooting
-                    until normal life resumes.
+                    A lot of the coolest magic tricks have some manual somewhere..
                   </p>
                   <p>
-                    Most photographers love to shoot the unusual, and you don’t
-                    get much more unusual than These Unprecedented Times. Right
-                    now everything counts as out of the ordinary. There are a
-                    number of remarkable things about these lockdown days that
-                    are worth photographing now so we can remember them when it
-                    is all over.
+                    Reading documentation was a skill I learned early on in my career. Aside from just just programming, 
+                    reading the manuals is an important step in mastering our tools. This point is sharper as our tools become more complex. 
+
                   </p>
                   <p>
-                    Streets empty that are usually busy are remarkable and can
-                    evoke the sense of historical pictures from before the
-                    invention of the motorcar. Other things that are different
-                    at the moment will be queues to get into stores and the
-                    lines marked out on the floor to show how far apart we
-                    should be.
+                    I frequently read the newest updates on MDN or if I watch a demo, I always make sure to look at some documentation as well. 
+                    A lot of programming is about abstracting different pieces of logic, and sometimes the only way to step down from that is to read the documentations. 
                   </p>
-                  <div className="quotebox">
+                  {/* <div className="quotebox">
                     <div className="icon">
                       <img
                         className="svg"
@@ -284,29 +279,21 @@ const Services = () => {
                       needed, as shooting away from home consistently inspires
                       us to new artistic heights.
                     </p>
-                  </div>
+                  </div> */}
                   {/* END QUOTEBOX */}
                   <p>
-                    Pretend everything is new and that you haven’t seen it
-                    before, and then you will be free to notice the leading
-                    lines, the places where one edge meets another in delightful
-                    geometric harmony, and how the ordinary things in the
-                    kitchen are transformed when the light is on or off.
+                    The trick is to be humble and understand the collaborative nature of programming and software engineering. 
+                    There will always be other people smarter than me who are making tools in ways I never thought of, so reading
+                    their notes they left behind is a good first step to following their footsteps. 
                   </p>
-                  <p>
-                    The trick here is to look slowly, and then look again. Take
-                    the time to look in detail and to look at the same thing
-                    from different angles, with different light, long lenses and
-                    wide lenses. Then move to the left a bit. You may never feel
-                    the need to leave the house again.
-                  </p>
+                  
                 </div>
                 {/* END DESCRIPTION */}
-                <div className="news_share">
+                {/* <div className="news_share">
                   <span>Share:</span>
                   <Social />
-                  {/* END SOCIAL SHARE */}
-                </div>
+                  {/* END SOCIAL SHARE
+                </div> */}
                 {/* END NEWS SHARE */}
               </div>
             </div>
@@ -335,7 +322,7 @@ const Services = () => {
           {/* END CLOSE ICON */}
           <div className="box_inner">
             <div className="description_wrap scrollable">
-              <div className="image">
+              {/* <div className="image">
                 <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
                 <div
                   className="main"
@@ -343,7 +330,7 @@ const Services = () => {
                     backgroundImage: "url(assets/img/news/2.jpg)",
                   }}
                 ></div>
-              </div>
+              </div> */}
               {/* END IMAGE */}
               <div className="details">
                 {/* <div className="extra">
@@ -353,36 +340,25 @@ const Services = () => {
                   </p>
                 </div> */}
                 <h3 className="title">
-                  Scrum Work Approach
+                  Development Time Planning
                 </h3>
               </div>
               {/* END DETAILS */}
               <div className="main_content ">
                 <div className="descriptions">
                   <p className="bigger">
-                    Just because we can't get out and about like we normally
-                    would, doesn’t mean we have to stop taking pictures. There’s
-                    still plenty you can do, provided you're prepared to use
-                    some imagination. Here are a few ideas to keep you shooting
-                    until normal life resumes.
+                    My experience with coding is in a triangle between velocity, adaptability/reusability, and optimization.
                   </p>
                   <p>
-                    Most photographers love to shoot the unusual, and you don’t
-                    get much more unusual than These Unprecedented Times. Right
-                    now everything counts as out of the ordinary. There are a
-                    number of remarkable things about these lockdown days that
-                    are worth photographing now so we can remember them when it
-                    is all over.
+                    For me, the best way to approach a project will fall somewhere in that triangle, and being deliberate about the general position inside the triangle will help me 
+                    vizualize a more accurate development timeline.
                   </p>
                   <p>
-                    Streets empty that are usually busy are remarkable and can
-                    evoke the sense of historical pictures from before the
-                    invention of the motorcar. Other things that are different
-                    at the moment will be queues to get into stores and the
-                    lines marked out on the floor to show how far apart we
-                    should be.
+                    My approach to timeline estimations is to stick to realistic development timeblocks (ie. usually no more than 2 weeks planning at a time), and to reassess and reevaluate my pace when I get new experience. 
+                    Throughout my time working, this has led me to be punctual and communicative to my PMs about any updates. Being deliberate about my development pacing lets me 
+                    alert my teammates as soon as I notice any roadblocks.
                   </p>
-                  <div className="quotebox">
+                  {/* <div className="quotebox">
                     <div className="icon">
                       <img
                         className="svg"
@@ -397,9 +373,9 @@ const Services = () => {
                       needed, as shooting away from home consistently inspires
                       us to new artistic heights.
                     </p>
-                  </div>
+                  </div> */}
                   {/* END QUOTEBOX */}
-                  <p>
+                  {/* <p>
                     Pretend everything is new and that you haven’t seen it
                     before, and then you will be free to notice the leading
                     lines, the places where one edge meets another in delightful
@@ -412,14 +388,14 @@ const Services = () => {
                     from different angles, with different light, long lenses and
                     wide lenses. Then move to the left a bit. You may never feel
                     the need to leave the house again.
-                  </p>
+                  </p> */}
                 </div>
                 {/* END DESCRIPTION */}
-                <div className="news_share">
+                {/* <div className="news_share">
                   <span>Share:</span>
                   <Social />
-                  {/* END SOCIAL SHARE */}
-                </div>
+                  {/* END SOCIAL SHARE 
+                </div> */}
                 {/* END NEWS SHARE */}
               </div>
             </div>
