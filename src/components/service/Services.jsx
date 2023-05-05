@@ -424,7 +424,7 @@ const Services = () => {
           {/* END CLOSE ICON */}
           <div className="box_inner">
             <div className="description_wrap scrollable">
-              <div className="image">
+              {/* <div className="image">
                 <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
                 <div
                   className="main"
@@ -432,7 +432,7 @@ const Services = () => {
                     backgroundImage: "url(assets/img/news/2.jpg)",
                   }}
                 ></div>
-              </div>
+              </div> */}
               {/* END IMAGE */}
               <div className="details">
                 {/* <div className="extra">
@@ -449,15 +449,32 @@ const Services = () => {
               <div className="main_content ">
                 <div className="descriptions">
                   <p className="bigger">
-                    papaya1
+                    Programming live updates
+                  </p>
+                  <p>  
+                    The main question is, "how do we keep the end-user up-to-date with new database changes without
+                    having them call our backend?" 
+                    To solve this, we program a websocket that creates a 
+                    channel that will listen for changes. This means we essentially have 3 baseline 
+                    requirements to programming a functional websocket for our application.
                   </p>
                   <p>
-                    papaya2
+                    <ul style={{marginLeft: "20px"}}>
+                      <li>
+                        A way to establish a connection/channel
+                      </li>
+                      <li>
+                        What do with the data coming to the user from the connection/channel
+                      </li>
+                      <li>
+                        How and when do we send data from our backend through the connection/channel
+                      </li>
+                    </ul>
                   </p>
                   <p>
-                    boop
+                    The technical details will vary between different projects and frameworks, but simplifying websockets this way makes it approachable in most contexts!
                   </p>
-                  <div className="quotebox">
+                  {/* <div className="quotebox">
                     <div className="icon">
                       <img
                         className="svg"
@@ -472,9 +489,9 @@ const Services = () => {
                       needed, as shooting away from home consistently inspires
                       us to new artistic heights.
                     </p>
-                  </div>
+                  </div> */}
                   {/* END QUOTEBOX */}
-                  <p>
+                  {/* <p>
                     Pretend everything is new and that you haven’t seen it
                     before, and then you will be free to notice the leading
                     lines, the places where one edge meets another in delightful
@@ -487,14 +504,14 @@ const Services = () => {
                     from different angles, with different light, long lenses and
                     wide lenses. Then move to the left a bit. You may never feel
                     the need to leave the house again.
-                  </p>
+                  </p> */}
                 </div>
                 {/* END DESCRIPTION */}
-                <div className="news_share">
+                {/* <div className="news_share">
                   <span>Share:</span>
-                  <Social />
+                  <Social /> */}
                   {/* END SOCIAL SHARE */}
-                </div>
+                {/* </div> */}
                 {/* END NEWS SHARE */}
               </div>
             </div>
@@ -522,7 +539,7 @@ const Services = () => {
           {/* END CLOSE ICON */}
           <div className="box_inner">
             <div className="description_wrap scrollable">
-              <div className="image">
+              {/* <div className="image">
                 <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
                 <div
                   className="main"
@@ -530,7 +547,7 @@ const Services = () => {
                     backgroundImage: "url(assets/img/news/2.jpg)",
                   }}
                 ></div>
-              </div>
+              </div> */}
               {/* END IMAGE */}
               <div className="details">
                 {/* <div className="extra">
@@ -547,15 +564,19 @@ const Services = () => {
               <div className="main_content ">
                 <div className="descriptions">
                   <p className="bigger">
-                    papaya1
+                    AWS has an overwhelming amount of services and tools, which makes it 
+                    easy to get lost and frustrated. 
+                    Taking advantage of this corporate ecosystem necessitates a few approaches. 
                   </p>
                   <p>
-                    papaya2
-                  </p>
+                    I believe understanding that it's the most popular cloud platform that lowers the barrier for entry helps 
+                    us as developers. 
+                  </p>  
                   <p>
-                    boop
+                    It's a new way of understanding the IT infrastucture, so navigating the various services as a 
+                    developer and consumer at the same time makes the frustrations more tolerable, and even fun to explore -- like walking into a megastore for the first time. 
                   </p>
-                  <div className="quotebox">
+                  {/* <div className="quotebox">
                     <div className="icon">
                       <img
                         className="svg"
@@ -570,9 +591,9 @@ const Services = () => {
                       needed, as shooting away from home consistently inspires
                       us to new artistic heights.
                     </p>
-                  </div>
+                  </div> */}
                   {/* END QUOTEBOX */}
-                  <p>
+                  {/* <p>
                     Pretend everything is new and that you haven’t seen it
                     before, and then you will be free to notice the leading
                     lines, the places where one edge meets another in delightful
@@ -585,14 +606,14 @@ const Services = () => {
                     from different angles, with different light, long lenses and
                     wide lenses. Then move to the left a bit. You may never feel
                     the need to leave the house again.
-                  </p>
+                  </p> */}
                 </div>
                 {/* END DESCRIPTION */}
-                <div className="news_share">
+                {/* <div className="news_share">
                   <span>Share:</span>
-                  <Social />
+                  <Social /> */}
                   {/* END SOCIAL SHARE */}
-                </div>
+                {/* </div> */}
                 {/* END NEWS SHARE */}
               </div>
             </div>
@@ -621,7 +642,7 @@ const Services = () => {
           {/* END CLOSE ICON */}
           <div className="box_inner">
             <div className="description_wrap scrollable">
-              <div className="image">
+              {/* <div className="image">
                 <img src="assets/img/thumbs/4-3.jpg" alt="tumb" />
                 <div
                   className="main"
@@ -629,7 +650,7 @@ const Services = () => {
                     backgroundImage: "url(assets/img/news/2.jpg)",
                   }}
                 ></div>
-              </div>
+              </div> */}
               {/* END IMAGE */}
               <div className="details">
                 {/* <div className="extra">
@@ -646,15 +667,19 @@ const Services = () => {
               <div className="main_content ">
                 <div className="descriptions">
                   <p className="bigger">
-                    papaya1
+                    Always looking for upgrades and making sure it doesn't break through using testing tools.
                   </p>
                   <p>
-                    papaya2
+                    The technologies and collaborations never stop, which means updates and improvements never stop. 
+                    This further means that developers need to balance constant updates with constant uptime.
                   </p>
                   <p>
-                    boop
+                    In my project experience, this means that during development, it's important to be aware of your different environemnts. 
+                    Specifically in how certain microbenchmarks may be great in development, but garbage collection can result in poor production performance.
+                    As a result, I am always making sure I read about the different CI/CD services and how they operate, as well as keeping in mind the different angles
+                    that users may interact with the product. Benchmarking and developing tests in that context has always been more accurate and meaningful. 
                   </p>
-                  <div className="quotebox">
+                  {/* <div className="quotebox">
                     <div className="icon">
                       <img
                         className="svg"
@@ -669,9 +694,9 @@ const Services = () => {
                       needed, as shooting away from home consistently inspires
                       us to new artistic heights.
                     </p>
-                  </div>
+                  </div> */}
                   {/* END QUOTEBOX */}
-                  <p>
+                  {/* <p>
                     Pretend everything is new and that you haven’t seen it
                     before, and then you will be free to notice the leading
                     lines, the places where one edge meets another in delightful
@@ -684,14 +709,14 @@ const Services = () => {
                     from different angles, with different light, long lenses and
                     wide lenses. Then move to the left a bit. You may never feel
                     the need to leave the house again.
-                  </p>
+                  </p> */}
                 </div>
                 {/* END DESCRIPTION */}
-                <div className="news_share">
+                {/* <div className="news_share">
                   <span>Share:</span>
-                  <Social />
+                  <Social /> */}
                   {/* END SOCIAL SHARE */}
-                </div>
+                {/* </div> */}
                 {/* END NEWS SHARE */}
               </div>
             </div>

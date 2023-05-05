@@ -9,10 +9,10 @@ const Intro = () => {
       <>
         <p>
           I am a software developer who frequently reads about open source projects on GitHub 
-          and MDN to know more about the browser's environment. I have a strong 
+          and MDN. I have a strong 
           full-stack foundation with React and Ruby on Rails through my training at 
           AppAcademy's NYC campus, where I grew my debugging skills and fostered the knowledge 
-          to start my own research into other frontier computer systems. 
+          to start my own research into other computer systems. 
         </p>
 
         <p>
