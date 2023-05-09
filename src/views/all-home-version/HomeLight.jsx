@@ -25,7 +25,7 @@ const HomeLight = () => {
 
   return (
     <>
-      <PageTitle title="Home Regular" />
+      <PageTitle title="Michael Shih" />
       {/* End page title for seo */}
 
       <button className="theme-switcher-label" onClick={toggleDarkMode}>
@@ -47,7 +47,8 @@ const HomeLight = () => {
             <div className="leftpart_inner">
               <div className="logo">
                 <Link className="navbar-brand" to="/">
-                  <img src="/assets/img/logo/dark.png" alt="brand" />
+                  {/* <img src="/assets/img/logo/dark.png" alt="brand" /> */}
+                  <h3>MichaelShih</h3>
                 </Link>
               </div>
               {/* END LOGO */}
