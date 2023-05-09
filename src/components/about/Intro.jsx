@@ -16,7 +16,7 @@ const Intro = () => {
         </p>
 
         <p>
-          Im currently expanding my skillset to include C, AI models, and webscraping. 
+          I'm currently expanding my skillset to include C, AI models, and webscraping. 
         </p>
 
         <p>
