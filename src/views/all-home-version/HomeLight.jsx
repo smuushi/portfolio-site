@@ -48,7 +48,7 @@ const HomeLight = () => {
               <div className="logo">
                 <Link className="navbar-brand" to="/">
                   {/* <img src="/assets/img/logo/dark.png" alt="brand" /> */}
-                  <h3>MichaelShih</h3>
+                  <h3>{`<MShih />`}</h3>
                 </Link>
               </div>
               {/* END LOGO */}
