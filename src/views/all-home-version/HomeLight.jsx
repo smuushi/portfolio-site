@@ -47,8 +47,8 @@ const HomeLight = () => {
             <div className="leftpart_inner">
               <div className="logo">
                 <Link className="navbar-brand" to="/">
-                  {/* <img src="/assets/img/logo/dark.png" alt="brand" /> */}
-                  <h3>{`<MShih />`}</h3>
+                  <img src="/assets/WebDevMSLogoLight.png" alt="brand" />
+                  {/* <h3>{`<MShih />`}</h3> */}
                 </Link>
               </div>
               {/* END LOGO */}
