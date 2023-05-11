@@ -15,6 +15,7 @@ const Contact = () => {
         "template_ugoztxr",
         form.current,
         "user_vYmDSd9PwIuRXUQEDjYwN"
+        
       )
       .then(
         (result) => {
