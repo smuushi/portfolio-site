@@ -15,7 +15,7 @@ const ServiceMain = () => {
             <div className="title_flex">
               <div className="left">
                 <span>Services</span>
-                <h3>What I do</h3>
+                <h3>My Approaches</h3>
               </div>
             </div>
           </div>

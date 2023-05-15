@@ -77,7 +77,7 @@ const HomeLight = () => {
                       src="/assets/img/svg/setting.svg"
                       alt="avatar"
                     />
-                    <span className="menu_content">Service</span>
+                    <span className="menu_content">Skills</span>
                   </Tab>
                   <Tab>
                     <img
