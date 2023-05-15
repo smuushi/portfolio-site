@@ -31,7 +31,7 @@ const News = () => {
             <div className="title_flex">
               <div className="left">
                 <span>News</span>
-                <h3>Latest News</h3>
+                <h3>Reflections</h3>
               </div>
             </div>
           </div>
@@ -42,12 +42,14 @@ const News = () => {
               <div className="list_inner">
                 <div className="image" >
                   <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
-                  <div
-                    className="main"
-                    style={{
-                      backgroundImage: "url(assets/img/news/typescript.jpeg)",
-                    }}
-                  ></div>
+                  <a href="https://www.linkedin.com/posts/michael-shih-smuushi_the-story-of-typescript-activity-7056826168766803968-H4Hu?utm_source=share&utm_medium=member_desktop">
+                    <div
+                      className="main"
+                      style={{
+                        backgroundImage: "url(assets/img/news/typescript.jpeg)",
+                      }}
+                      ></div>
+                  </a>
                 </div>
                 {/* END IMAGE */}
                 <div className="details">
@@ -200,12 +202,15 @@ const News = () => {
               <div className="list_inner">
                 <div className="image">
                   <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
+                  <a href="https://www.linkedin.com/posts/michael-shih-smuushi_making-tanstack-table-1000x-faster-with-a-activity-7057764360982523905-MoIK?utm_source=share&utm_medium=member_desktop">
+
                   <div
                     className="main"
                     style={{
                       backgroundImage: "url(assets/img/news/tanstack.jpeg)",
                     }}
-                  ></div>
+                    ></div>
+                  </a>
                 </div>
                 {/* END IMAGE */}
 
@@ -356,12 +361,15 @@ const News = () => {
               <div className="list_inner">
                 <div className="image" >
                   <img src="assets/img/thumbs/4-3.jpg" alt="thumb" />
+                  <a href="https://www.linkedin.com/posts/michael-shih-smuushi_premature-optimization-activity-7059331965912543232-u2yM?utm_source=share&utm_medium=member_desktop">
+
                   <div
                     className="main"
                     style={{
                       backgroundImage: "url(assets/img/news/premat.jpeg)",
                     }}
-                  ></div>
+                    ></div>
+                  </a>
                 </div>
                 {/* END IMAGE */}
 
