@@ -45,7 +45,7 @@ const News = () => {
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(https://media.licdn.com/dms/image/sync/C4E27AQEFDzpEO9uM6Q/articleshare-shrink_800/0/1682478499900?e=1683698400&v=beta&t=STUOWDXkeaJ0MJrgY6nt-MZ-1Mhk2d8dtgrOQJX3mZk)",
+                      backgroundImage: "url(assets/img/news/typescript.jpeg)",
                     }}
                   ></div>
                 </div>
@@ -203,7 +203,7 @@ const News = () => {
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(https://media.licdn.com/dms/image/sync/D4D27AQFKOR91zmg9hA/articleshare-shrink_800/0/1682713075444?e=1683698400&v=beta&t=-eZHqAfRFYXsppm0DuWVd6lUlAB8qAxYQjYQMUYlpfg)",
+                      backgroundImage: "url(assets/img/news/tanstack.jpeg)",
                     }}
                   ></div>
                 </div>
@@ -359,7 +359,7 @@ const News = () => {
                   <div
                     className="main"
                     style={{
-                      backgroundImage: "url(https://media.licdn.com/dms/image/sync/D5627AQHjhWsigoZoMQ/articleshare-shrink_800/0/1683074605046?e=1683698400&v=beta&t=68lxPW7RtWg9kR2OBTevW105SpmraroaCwoGtlE6K6g)",
+                      backgroundImage: "url(assets/img/news/premat.jpeg)",
                     }}
                   ></div>
                 </div>
