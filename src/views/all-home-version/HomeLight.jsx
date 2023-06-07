@@ -107,7 +107,7 @@ const HomeLight = () => {
               </div>
               {/* END MENU */}
 
-              <CopyRight />
+              {/* <CopyRight /> */}
               {/* END COPYRIGHT */}
             </div>
           </div>
