@@ -27,12 +27,18 @@ const Resume = () => {
       resume: [
         {
           id: 1,
+          year: "2023 - Present",
+          institute: "Movie Rights Exchange",
+          degree: "Software Engineer",
+        },
+        {
+          id: 2,
           year: "2022 - Present",
           institute: "Cliffs Climbing and Fitness",
           degree: "Climbing Associate",
         },
         {
-          id: 2,
+          id: 3,
           year: "2020 - 2023",
           institute: "CityMD Urgent Care",
           degree: "Clinical Shift Supervisor",

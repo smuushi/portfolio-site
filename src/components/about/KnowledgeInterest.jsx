@@ -7,12 +7,12 @@ const KnowledgeInterest = () => {
       colClass: "left",
       title: "Knowledge",
       content: [
-        " Languages: JavaScript, Ruby, SQL, HTML, CSS",
-        " Ruby On Rails",
-        " React",
+        " Languages: JavaScript, Ruby, Solidity, Java, Python, SQL, HTML, CSS",
+        " AWS, Lambda, DocumentDB, IAM",
+        " Ruby On Rails, Express, Django",
+        " React, Vite, NextJS, Vue",
         " PostgreSQL, Sqlite3",
-        " MongoDB",
-        " Express"
+        " DocumentDB, MongoDB",
       ],
     },
     {
@@ -20,11 +20,11 @@ const KnowledgeInterest = () => {
       colClass: "right",
       title: "Interests",
       content: [
-        " Low Level Computer Systems",
-        " Memory Optimizations",
-        " Benchmarking",
+        " Computer Systems",
+        " Cloud Optimizations and Infrastructure",
+        " Web3 Implementations",
         " Open Source",
-        " IDE workflow improvements",
+        
       ],
     },
   ];
